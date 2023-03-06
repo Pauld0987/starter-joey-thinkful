@@ -1,0 +1,58 @@
+/* CSS code */
+/* Set the font size of the title to 52px for mobile devices */
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 52px;
+  }
+}
+
+/* Set the font size of the title to 48px for desktop devices */
+@media only screen and (min-width: 601px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+/* Set the font family and font weight of the title */
+.title {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+
+
+/* CSS code */
+/* Set the font family and font weight of the navigation links */
+.navigation a {
+  font-family: Montserrat;
+  font-weight: bold;
+}
+
+/* CSS code */
+/* Set the background color */
+body {
+  background-color: #0B1C51;
+}
+
+/* CSS code */
+/* Set the spacing between the title and navigation for mobile devices */
+@media only screen and (max-width: 600px) {
+  .title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .navigation {
+    margin-bottom: 40px;
+  }
+}
+
+/* Set the spacing between the title and navigation for desktop devices */
+@media only screen and (min-width: 601px) {
+  .title {
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+  .navigation {
+    margin-bottom: 80px;
+  }
+}
